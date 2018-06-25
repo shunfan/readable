@@ -1,4 +1,4 @@
-# MyReads Project
+# Readable
 
 Readable is a content and comment web app.
 
