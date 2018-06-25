@@ -34,7 +34,7 @@ class PostEditor extends Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  componentWillMount() {
+  componentDidMount() {
     this.props.fetchCategories();
     const { postID } = this.props;
     if (postID) {

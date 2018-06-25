@@ -27,7 +27,7 @@ const propTypes = {
 };
 
 class PostDetail extends Component {
-  componentWillMount() {
+  componentDidMount() {
     this.props.receivePost(this.props.postID);
   }
 

@@ -32,7 +32,7 @@ class CommentEditor extends Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  componentWillMount() {
+  componentDidMount() {
     const { commentID } = this.props;
     if (commentID) {
       /**

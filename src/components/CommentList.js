@@ -12,7 +12,7 @@ const propTypes = {
 };
 
 class CommentList extends Component {
-  componentWillMount() {
+  componentDidMount() {
     this.props.fetchComments(this.props.postID);
   }
 
